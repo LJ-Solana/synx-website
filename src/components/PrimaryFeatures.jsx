@@ -549,10 +549,10 @@ export function PrimaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
           <h2 className="text-3xl font-medium font-bold tracking-tight text-white">
-            Every feature you need to win. Try it for yourself.
+            Creating the web3 input layer. Try it for yourself.
           </h2>
           <p className="mt-2 text-lg text-gray-400">
-            Synx was built for everyday consumers and enterprises who like to play by their own rules, who aren't going to let big tech take away their data and want to earn incentives for taking back control. Web3 is secondary for this product, we provide a viable alternative to any of the traditional storage companies such as Dropbox, Box or Google Drive.
+            Synx was built for everyday consumers and enterprises who like to play by their own rules, who aren't going to let big tech take away their data and want to earn incentives for taking back control. Web3 is secondary for this product, we provide a viable alternative to any of the traditional storage product such as Dropbox, Box or Google Drive.
           </p>
         </div>
       </Container>
