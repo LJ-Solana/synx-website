@@ -199,7 +199,7 @@ export function SecondaryFeatures() {
             Now is the time to to own your data.
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            With typical storage companies, you have to give up control and custody of your data. At Synx, we've built our product from the ground up to make features useful for everyone, owned by everyone.
+            With typical storage companies, you have to give up control and custody of your data. At Synx, weve built our product from the ground up to make features useful for everyone, owned by everyone.
           </p>
         </div>
         <ul
