@@ -12,6 +12,6 @@ export function Logomark(props) {
 
 export function Logo(props) {
   return (
-    <img src="synx.svg" height="30" width="30"></img>
+    <img src="synx.svg" height="30" width="30" className="bg-white"></img>
   )
 }

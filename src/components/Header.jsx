@@ -8,7 +8,7 @@ import { NavLinks } from '@/components/NavLinks'
 
 function MenuIcon(props) {
   return (
-    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="false" {...props}>
       <path
         d="M5 6h14M5 18h14M5 12h14"
         strokeWidth={2}
@@ -36,7 +36,7 @@ function MobileNavLink({ children, ...props }) {
   return (
     <Popover.Button
       as={Link}
-      className="block text-base leading-7 tracking-tight text-white"
+      className="block text-base leading-7 tracking-tight bg-black text-white"
       {...props}
     >
       {children}
@@ -48,21 +48,21 @@ export function Header() {
   return (
     <header>
       <nav>
-        <Container className="relative z-50 flex justify-between py-8 bg-purple-900">
-          <div className="relative z-10 flex items-center bg-purple-900 gap-16">
+        <Container className="relative z-50 flex justify-between py-8 bg-black">
+          <div className="relative z-10 flex items-center bg-black gap-16">
             <Link href="/" aria-label="Home">
-              <Logo className="h-10 w-auto" />
+              <Logo className="h-10 w-auto bg-black" />
             </Link>
-            <div className="hidden lg:flex lg:gap-10">
+            <div className="hidden lg:flex bg-black lg:gap-10">
               <NavLinks />
             </div>
           </div>
-          <div className="flex items-center bg-purple-900 gap-6">
+          <div className="flex items-center bg-black ap-6">
             <Popover className="lg:hidden">
               {({ open }) => (
                 <>
                   <Popover.Button
-                    className="relative z-10 -m-2 inline-flex  items-center rounded-lg p-2 hover:bg-white
+                    className="relative z-10 -m-2 inline-flex bg-black items-center rounded-lg p-2 hover:bg-white
                      hover:stroke-gray-600 active:stroke-white [&:not(:focus-visible)]:focus:outline-none"
                     aria-label="Toggle site navigation"
                   >
@@ -83,7 +83,7 @@ export function Header() {
                           initial={{ opacity: 0 }}
                           animate={{ opacity: 1 }}
                           exit={{ opacity: 0 }}
-                          className="fixed inset-0 z-0 bg-purple-900 backdrop-blur"
+                          className="fixed inset-0 z-0 bg-black backdrop-blur"
                         />
                         <Popover.Panel
                           static
@@ -95,9 +95,9 @@ export function Header() {
                             y: -32,
                             transition: { duration: 0.2 },
                           }}
-                          className="absolute inset-x-0 top-0 z-0 bg-purple-900 origin-top rounded-b-2xl px-6 pb-6 pt-32 shadow-2xl"
+                          className="absolute inset-x-0 top-0 z-0 bg-black origin-top rounded-b-2xl px-6 pb-6 pt-32 shadow-2xl"
                         >
-                          <div className="space-y-4 text-white">
+                          <div className="space-y-4 bg-black text-white">
                             <MobileNavLink href="#features">
                               Features
                             </MobileNavLink>
@@ -109,7 +109,7 @@ export function Header() {
                             </MobileNavLink>
                             <MobileNavLink href="#faqs">FAQs</MobileNavLink>
                           </div>
-                          <div className="mt-8 flex flex-col gap-4">
+                          <div className="mt-8 flex flex-col bg-black gap-4">
                             <Button href="https://testflight.apple.com/join/O7ntf0Qa">Download the app</Button>
                           </div>
                         </Popover.Panel>

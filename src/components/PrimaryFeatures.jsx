@@ -380,8 +380,8 @@ export function PrimaryFeatures() {
   return (
     <section
       id="features"
-      aria-label="Features for investing all your money"
-      className="bg-gray-900 py-20 sm:py-32"
+      aria-label="Features for dStorage"
+      className="bg-black py-20 sm:py-32"
     >
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
