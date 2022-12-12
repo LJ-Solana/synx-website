@@ -44,7 +44,7 @@ export function Footer() {
             </div>
             <div className="ml-8 lg:w-64">
               <p className="text-base font-semibold text-gray-900">
-                <Link href="#">
+                <Link href="https://testflight.apple.com/join/O7ntf0Qa">
                   <span className="absolute inset-0 sm:rounded-2xl" />
                   Download the app
                 </Link>

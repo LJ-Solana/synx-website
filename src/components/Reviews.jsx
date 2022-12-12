@@ -265,7 +265,7 @@ export function Reviews() {
           People are changing their life with Synx.
         </h2>
         <p className="mt-2 text-lg text-gray-600 sm:text-center">
-          Thousands of people have taken back control of their data in the last 30 days.
+          Hundreds of people have taken back control of their data in the last 30 days.
         </p>
         <ReviewGrid />
       </Container>

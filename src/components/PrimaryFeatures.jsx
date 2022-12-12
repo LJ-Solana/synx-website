@@ -170,33 +170,7 @@ const bodyAnimation = {
 function InviteScreen({ custom, animated = false }) {
   return (
     <AppScreen className="w-full">
-      <MotionAppScreenHeader {...(animated ? headerAnimation : {})}>
-        <AppScreen.Title>Invite people</AppScreen.Title>
-        <AppScreen.Subtitle>
-          Get tips <span className="text-white">5s sooner</span> for every
-          invite.
-        </AppScreen.Subtitle>
-      </MotionAppScreenHeader>
-      <MotionAppScreenBody {...(animated ? { ...bodyAnimation, custom } : {})}>
-        <div className="px-4 py-6">
-          <div className="space-y-6">
-            {[
-              { label: 'Full name', value: 'Albert H. Wiggin' },
-              { label: 'Email address', value: 'awiggin@chase.com' },
-            ].map((field) => (
-              <div key={field.label}>
-                <div className="text-sm text-gray-500">{field.label}</div>
-                <div className="mt-2 border-b border-gray-200 pb-2 text-sm text-gray-900">
-                  {field.value}
-                </div>
-              </div>
-            ))}
-          </div>
-          <div className="mt-6 rounded-lg bg-cyan-500 py-2 px-3 text-center text-sm font-semibold text-white">
-            Invite person
-          </div>
-        </div>
-      </MotionAppScreenBody>
+      <img src=""></img>
     </AppScreen>
   )
 }
@@ -549,7 +523,7 @@ export function PrimaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
           <h2 className="text-3xl font-medium font-bold tracking-tight text-white">
-            Creating the web3 input layer. Try it for yourself.
+            Try out the web3 input layer for yourself.
           </h2>
           <p className="mt-2 text-lg text-gray-400">
             Synx was built for everyday consumers and enterprises who like to play by their own rules, who aren't going to let big tech take away their data and want to earn incentives for taking back control. Web3 is secondary for this product, we provide a viable alternative to any of the traditional storage product such as Dropbox, Box or Google Drive.
