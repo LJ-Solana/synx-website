@@ -213,6 +213,7 @@ function FeaturesDesktop() {
     100,
     { leading: true }
   )
+  /* 1419807e07ca227595782df6cda07389 */
 
   return (
     <Tab.Group
@@ -252,7 +253,7 @@ function FeaturesDesktop() {
       </Tab.List>
       <div className="relative col-span-6">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-          <CircleBackground color="#13B5C8" className="animate-spin-slower" />
+          <CircleBackground color="#A900E6" className="animate-spin-slower" />
         </div>
         <PhoneFrame className="z-10 mx-auto w-full max-w-[366px]">
           <Tab.Panels as={Fragment}>
@@ -329,7 +330,7 @@ function FeaturesMobile() {
             <div className="relative transform overflow-hidden rounded-2xl bg-gray-800 px-5 py-6">
               <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
                 <CircleBackground
-                  color="#13B5C8"
+                  color="#A900E6"
                   className={featureIndex % 2 === 1 ? 'rotate-180' : undefined}
                 />
               </div>
@@ -383,11 +384,11 @@ export function PrimaryFeatures() {
     >
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
-          <h2 className="text-3xl font-medium font-bold tracking-tight text-purple-900">
-            Try out the web3 input layer for yourself.
+          <h2 className="text-3xl font-medium font-bold tracking-tight text-purple-500">
+            Try the web3 input layer for yourself.
           </h2>
           <p className="mt-2 text-lg text-gray-400">
-            Synx was built for everyday consumers and enterprises who like to play by their own rules, who arent going to let big tech take away their data and want to earn incentives for taking back control. Web3 is secondary for this product, we provide a viable alternative to any of the traditional storage product such as Dropbox, Box or Google Drive.
+            Synx was built for everyday consumers and enterprises who like to play by their own rules, who arent going to let big tech take away their data and want to earn incentives for taking back control. Web3 is secondary for this product, we provide a viable alternative to any traditional data storage product such as Dropbox, Box or Google Drive.
           </p>
         </div>
       </Container>

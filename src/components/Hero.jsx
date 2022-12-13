@@ -30,7 +30,7 @@ function BackgroundIllustration(props) {
       >
         <path
           d="M1025 513c0 282.77-229.23 512-512 512S1 795.77 1 513 230.23 1 513 1s512 229.23 512 512Z"
-          stroke="#D4D4D4"
+          stroke="#A900E6"
           strokeOpacity="0.7"
         />
         <path
@@ -48,7 +48,7 @@ function BackgroundIllustration(props) {
             gradientUnits="userSpaceOnUse"
           >
             <stop stopColor="bg-purple-900" />
-            <stop offset="1" stopColor="bg-purple-900" stopOpacity="0" />
+            <stop offset="1" stopColor="bg-purple-500" stopOpacity="0" />
           </linearGradient>
         </defs>
       </svg>
@@ -60,7 +60,7 @@ function BackgroundIllustration(props) {
       >
         <path
           d="M913 513c0 220.914-179.086 400-400 400S113 733.914 113 513s179.086-400 400-400 400 179.086 400 400Z"
-          stroke="#D4D4D4"
+          stroke="#A900E6"
           strokeOpacity="0.7"
         />
         <path
@@ -77,8 +77,8 @@ function BackgroundIllustration(props) {
             y2="913"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stopColor="bg-purple-900" />
-            <stop offset="1" stopColor="bg-purple-900" stopOpacity="0" />
+            <stop stopColor="bg-purple-500" />
+            <stop offset="1" stopColor="bg-purple-500" stopOpacity="0" />
           </linearGradient>
         </defs>
       </svg>
@@ -250,7 +250,7 @@ export function Hero() {
       <Container>
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 bg-black lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
-            <h1 className="text-4xl font-medium font-bold tracking-tight text-purple-900">
+            <h1 className="text-4xl font-medium font-bold tracking-tight text-purple-500">
               Take back control of your data.
             </h1>
             <p className="mt-6 text-lg text-white">
